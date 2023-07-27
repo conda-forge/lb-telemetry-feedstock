@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@CameronMcClymont](https://github.com/CameronMcClymont/)
 * [@chrisburr](https://github.com/chrisburr/)
 
-
-<!-- dummy commit to enable rerendering -->
-
