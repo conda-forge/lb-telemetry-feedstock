@@ -1,5 +1,5 @@
 {% set name = "lb-telemetry" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lb-telemetry-{{ version }}.tar.gz
-  sha256: 05d5af5f1462ba5aaf808ac97970416a52309a794fcf906c6f63d2afa42b77af
+  sha256: 782ae2633309ab34e156e6484986275dfc503376ebd3b1cbd69b4946c21c08e8
 
 build:
   noarch: python
