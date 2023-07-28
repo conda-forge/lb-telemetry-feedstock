@@ -1,5 +1,5 @@
 {% set name = "lb-telemetry" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lb-telemetry-{{ version }}.tar.gz
-  sha256: 782ae2633309ab34e156e6484986275dfc503376ebd3b1cbd69b4946c21c08e8
+  sha256: e73bc117d72f77fd2b8ad9b4483dddb9f07e90f95c4ca21c70b7123282aa59f6
 
 build:
   entry_points:
     - lb-telemetry = lb_telemetry:lb_telemetry
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
